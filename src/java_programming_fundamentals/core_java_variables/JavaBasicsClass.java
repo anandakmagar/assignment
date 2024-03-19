@@ -1,4 +1,4 @@
-package java_basics;
+package java_programming_fundamentals.core_java_variables;
 
 import java.text.DecimalFormat;
 
