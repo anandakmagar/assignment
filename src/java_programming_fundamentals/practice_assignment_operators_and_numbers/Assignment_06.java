@@ -1,4 +1,4 @@
-package java_programming_fundamentals.java_operators_numbers;
+package java_programming_fundamentals.practice_assignment_operators_and_numbers;
 
 public class Assignment_06 {
     public static void main(String[] args){

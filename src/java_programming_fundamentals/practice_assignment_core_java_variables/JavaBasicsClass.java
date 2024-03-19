@@ -1,4 +1,4 @@
-package java_programming_fundamentals.core_java_variables;
+package java_programming_fundamentals.practice_assignment_core_java_variables;
 
 import java.text.DecimalFormat;
 
