@@ -12,5 +12,6 @@ public class Assignment_03 {
         String[] newArray = array.clone();
 
         System.out.println(Arrays.toString(newArray));
+
     }
 }

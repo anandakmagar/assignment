@@ -11,5 +11,6 @@ public class Assignment_06 {
         }
 
         System.out.println(Arrays.toString(array));
+
     }
 }

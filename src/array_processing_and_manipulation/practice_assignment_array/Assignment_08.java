@@ -15,5 +15,6 @@ public class Assignment_08 {
         array[middleIndex] = temp;
 
         System.out.println(Arrays.toString(array));
+
     }
 }

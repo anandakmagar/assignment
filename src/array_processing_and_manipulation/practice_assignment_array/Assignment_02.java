@@ -9,5 +9,6 @@ public class Assignment_02 {
         int middleElement = array[middleIndex];
 
         System.out.println("Middle element of the array is " + middleElement);
+
     }
 }

@@ -12,5 +12,6 @@ public class Assignment_04 {
         // It threw the exception, Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
         // System.out.println(array[5]);
         // Same exception occurred, Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+
     }
 }

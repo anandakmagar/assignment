@@ -20,5 +20,6 @@ public class Assignment_09 {
         System.out.println(Arrays.toString(array));
         System.out.println("Smallest number is " + array[0]);
         System.out.println("Biggest number is " + array[array.length - 1]);
+
     }
 }

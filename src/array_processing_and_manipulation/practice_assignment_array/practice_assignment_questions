@@ -8,6 +8,7 @@ Introduction
 An array is a simple data structure used to store a collection of data in a contiguous block of memory. Each element in the collection is accessed using an index, and the elements are easy to find because they are stored sequentially in memory.
 Because the collection of elements in an array is stored as a big block of data, we typically use arrays when we know exactly how many pieces of data we are going to have.
 
+
 Tasks:
 ●	Task 1:
     Write a program that creates an array of integers with a length of 3. Assign the values 1, 2, and 3 to the indexes. Print out each array element.
