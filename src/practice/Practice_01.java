@@ -1,8 +1,6 @@
 package practice;
 
-import java.util.Scanner;
-
-public class Practice {
+public class Practice_01 {
 
     public static void main(String[] args) {
         int[] array = {100, 3, 2, 1, 4, 5, 3};
