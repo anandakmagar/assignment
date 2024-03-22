@@ -1,5 +1,6 @@
 package iteration_statements.practice_assignment_loops;
 
+
 public class Assignment_03 {
     public static void main(String[] args){
         double currentTuition = 10000;

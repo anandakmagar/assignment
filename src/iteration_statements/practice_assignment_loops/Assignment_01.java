@@ -6,6 +6,7 @@ public class Assignment_01 {
             for (int j = 1; j <= 12; j++){
                 System.out.print(i * j + " ");
             }
+
             System.out.println();
         }
     }

@@ -19,10 +19,12 @@ public class Assignment_02 {
         if (num1 < 0 || num2 < 0){
             System.out.println("Invalid number(s), since one or both numbers are negative!!");
         }
+
         else if (num1 == 0 || num2 == 0 || num1 == 1 || num2 == 1){
             gcd = 1;
             System.out.println(gcd);
         }
+
         else{
             for (int i = 2; i <= smallestNum; i++){
                 if (num1 % i == 0 && num2 % i == 0){
