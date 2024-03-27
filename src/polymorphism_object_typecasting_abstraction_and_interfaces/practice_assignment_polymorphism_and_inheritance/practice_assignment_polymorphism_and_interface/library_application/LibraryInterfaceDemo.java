@@ -33,18 +33,32 @@ class KidUser implements LibraryUser {
 
     @Override
     public String registerAccount() {
-        if(age <= 11){
+        if(getAge() <= 11){
             return "You have successfully registered under a Kids Account.";
         }
         return "Sorry, age must be less than 12 to register as a kid.";
     }
 
+//    @Override
+//    public String requestBook() {
+//        if (getBookType().equals("Kids")){
+//            return "Book issued successfully, please return the book within 10 days.";
+//        }
+//        return "Oops, you are allowed to take only kids books.";
+//
+//    }
+
     @Override
     public String requestBook() {
-        if (getBookType().equals("Kids")){
-            return "Book issued successfully, please return the book within 10 days.";
+        if (getAge() <= 11){
+            if (getBookType().equals("Kids")){
+                return "Book issued successfully, please return the book within 10 days.";
+            }
+            else {
+                return "Oops, you are allowed to take only kids books.";
+            }
         }
-        return "Oops, you are allowed to take only kids books.";
+        return "Please register as an adult";
     }
 }
 
@@ -83,10 +97,15 @@ class AdultUser implements LibraryUser {
 
     @Override
     public String requestBook() {
-        if (getBookType().equals("Fiction")){
-            return "Book Issued successfully, please return the book within 7 days.";
+        if (getAge() >= 12){
+            if (getBookType().equals("Fiction")){
+                return "Book Issued successfully, please return the book within 7 days.";
+            }
+            else {
+                return "Oops, you are allowed to take only adult Fiction books.";
+            }
         }
-        return "Oops, you are allowed to take only adult Fiction books.";
+        return "Please register as a kid";
     }
 }
 
