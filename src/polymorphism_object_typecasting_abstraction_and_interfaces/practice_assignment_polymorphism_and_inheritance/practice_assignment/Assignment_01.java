@@ -1,14 +1,12 @@
 package polymorphism_object_typecasting_abstraction_and_interfaces.practice_assignment_polymorphism_and_inheritance.practice_assignment;
 
-class Monster {
+abstract class Monster {
     String name;
 
     public Monster(String name){
         this.name = name;
     }
-    public String attack(){
-        return "!^_&^$@+%$* I don't know how to attack!";
-    }
+    public abstract String attack();
 }
 class FireMonster extends Monster {
 
@@ -65,7 +63,7 @@ public class Assignment_01 {
 
 
         // We have a problem here!!!
-        Monster m4 = new Monster("u2u2");
-        System.out.println(m4.attack());  // garbage!!!
+//        Monster m4 = new Monster("u2u2");
+//        System.out.println(m4.attack());  // garbage!!!
     }
 }
