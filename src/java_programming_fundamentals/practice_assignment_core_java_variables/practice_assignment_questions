@@ -2,7 +2,7 @@ PA 303.2.1 - Practice Assignment
 Core Java - Variables
 
 Objective:
-In this practice assignment, you will create a Java program. Instructions and requirements are given below. This assignment will test your knowledge of Java variables.
+In this self_practice assignment, you will create a Java program. Instructions and requirements are given below. This assignment will test your knowledge of Java variables.
 Instructions:
 Create a Java project in Eclipse called CoreJavaBasics. In the src folder, make a package and name it com.perscholas.java_basics. Create a class with a main( ) method to run the following exercises. (You may name the class whatever you like. Examples: JavaBasicsClass, HomeClass, IndexClass, PracticeClass, etc.).
 

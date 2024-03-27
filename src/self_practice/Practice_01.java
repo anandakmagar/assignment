@@ -1,4 +1,4 @@
-package practice;
+package self_practice;
 
 public class Practice_01 {
 
