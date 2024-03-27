@@ -39,15 +39,6 @@ class KidUser implements LibraryUser {
         return "Sorry, age must be less than 12 to register as a kid.";
     }
 
-//    @Override
-//    public String requestBook() {
-//        if (getBookType().equals("Kids")){
-//            return "Book issued successfully, please return the book within 10 days.";
-//        }
-//        return "Oops, you are allowed to take only kids books.";
-//
-//    }
-
     @Override
     public String requestBook() {
         if (getAge() <= 11){
