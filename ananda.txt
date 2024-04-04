@@ -1,1 +1,3 @@
-Hello, I am Ananda Magar
+Hello, I'm Ananda Magar.
+I'm currently enrolled in PerScholas.
+I'am learning Java backend here.
