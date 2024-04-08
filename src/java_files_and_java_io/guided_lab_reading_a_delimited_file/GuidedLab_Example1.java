@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class GuidedLab_Example1 {
     public static void main(String[] args) {
         try {
-            String location = "cars.csv";
+            String location = "C:\\Users\\anand\\Desktop\\PerScholasJava\\src\\java_files_and_java_io\\cars.csv";
             File file = new File(location);
             Scanner input = new Scanner(file);
             ArrayList<String[]> data = new ArrayList<>();

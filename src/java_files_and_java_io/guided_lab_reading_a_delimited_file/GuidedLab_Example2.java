@@ -45,7 +45,7 @@ class Course {
 public class GuidedLab_Example2 {
     public static void main(String[] args) {
         try {
-            String location = "CourseData.csv";
+            String location = "C:\\Users\\anand\\Desktop\\PerScholasJava\\src\\java_files_and_java_io\\CourseData.csv";
             File file = new File(location);
             Scanner input = new Scanner(file);
             ArrayList<Course> data = new ArrayList<>();
